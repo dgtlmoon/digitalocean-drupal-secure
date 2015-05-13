@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars: 
+    drupal_base: /var/www/html/drupal
+  roles:
+    - digitalocean-drupal-secure
